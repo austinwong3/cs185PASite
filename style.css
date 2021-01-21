@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width:100%;
+    background-color: black;
+    padding-left: 20px;
+}
+
+
+.navlink
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
