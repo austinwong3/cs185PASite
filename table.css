@@ -7,9 +7,11 @@ table, th, td {
 .tablepage{
     padding:40px;
 }
+
 .projectTable{
     width:90%;
 }
+
 .nameHead{
     width:5%;
 }
@@ -17,6 +19,7 @@ table, th, td {
 .detailsHead{
 width: 90%;
 }
+
 .yearHead{
 width: 5%;
 }
