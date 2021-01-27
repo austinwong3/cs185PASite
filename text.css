@@ -1,7 +1,6 @@
 
 .textpage
 {
-    padding-left:20px
 }
 
 .nameInput
@@ -10,7 +9,6 @@
     flex-direction: column;
     width: 250px;
     padding: 20px;
-    
 }
 
 .movieInput

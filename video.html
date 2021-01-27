@@ -10,13 +10,22 @@
 <div class="navbar">
     <a class="navlink" href="text.html">Text</a>
     <a class="navlink" href="image.html">Image</a>
-    <a class="navlink" href="video.html">Video</a>
+    <a class="activeNavlink" href="video.html">Video</a>
     <a class="navlink" href="table.html">Table</a>
+    <a class="navlink" href="email.html">Email</a>
+</div>
+
+<div class="overlay" id="overlay" onclick="hideOverlay()">
+    <iframe class="overlayVid" id="overlayVid" src="https://www.youtube.com/embed/fmXQvuCuK9Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="videopage">
-    <iframe class="ytVideo" src="https://www.youtube.com/embed/JswJjQx-UF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe class="ytVideo" src="https://www.youtube.com/embed/fmXQvuCuK9Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe class="ytVideo" src="https://www.youtube.com/embed/MaxQkQpqzBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe onclick="showOverlay(src)" class="ytVideo" src="./AndrewReel.mp4" frameborder="0" ></iframe>
+    <iframe onclick="showOverlay(src)" class="ytVideo" src="https://www.youtube.com/embed/JswJjQx-UF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe onclick="showOverlay(src)" class="ytVideo" src="https://www.youtube.com/embed/fmXQvuCuK9Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe onclick="showOverlay(src)" class="ytVideo" src="https://www.youtube.com/embed/MaxQkQpqzBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe onclick="showOverlay(src)" class="ytVideo" src="https://www.youtube.com/embed/ZmDBbnmKpqQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe onclick="showOverlay(src)" class="ytVideo" src="https://www.youtube.com/embed/xfeys7Jfnx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<script src="video.js"></script>
 </html>

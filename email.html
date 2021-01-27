@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Text-CS185PA1</title>
+<link rel="stylesheet" href=style.css>
+<link rel="stylesheet" href=email.css>
+</head>
+<body>
+
+<div class="navbar">
+    <a class="navlink" href="text.html">Text</a>
+    <a class="navlink" href="image.html">Image</a>
+    <a class="navlink" href="video.html">Video</a>
+    <a class="navlink" href="table.html">Table</a>
+    <a class="activeNavlink" href="email.html">Email</a>
+</div>
+
+<div class="emailpage">
+    <form>
+        <div class="nameInput">
+            <label class= "sectiontitle" for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </div>
+
+        <div class="doneButton" >
+            <input id="submitButton" type="submit" value="Done" onclick="printIt();">
+        </div>
+        <script src=email.js></script>
+    </form>
+    <div id="content"></div>
+</div>
+
+</body>
+</html>
