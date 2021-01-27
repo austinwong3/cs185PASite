@@ -1,4 +1,5 @@
 function showOverlay(src){
+    event.preventDefault();
         document.getElementById("overlayVid").src = src;
     document.getElementById("overlay").style.display = "flex";
     
